@@ -13,11 +13,50 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<style>
 		body {
-      scroll-behavior: smooth;
-    }
+			scroll-behavior: smooth;
+		}
 
-		a. {
+		a. {}
 
+		.scrolling-wrapper {
+			overflow-x: auto;
+		}
+
+		h1 {
+			font-weight: 800;
+			font-size: 3em;
+		}
+
+		.subtitle {
+			font-size: 1.25em;
+			opacity: 0.65;
+		}
+
+		.card-block {
+			height: 250px;
+			background-color: #fff;
+			border: none;
+			background-position: center;
+			background-size: cover;
+			transition: all 0.2s ease-in-out !important;
+			border-radius: 24px;
+			&:hover {
+				transform: translateY(-5px);
+				box-shadow: none;
+			}
+
+      .card-block2 {
+			height: 500px;
+			background-color: #fff;
+			border: none;
+			background-position: center;
+			background-size: cover;
+			transition: all 0.2s ease-in-out !important;
+			border-radius: 50px;
+			&:hover {
+				transform: translateY(-5px);
+				box-shadow: none;
+      }
 		}
 	</style>
 </head>
@@ -25,22 +64,23 @@
 
 <body>
 	<script src="script.js">
-	</script>
-  <div class="header">
-    <div class = "title-chinese">
-      </br>
-      </br>
-      </br>
-      <h1 class = "heading" >Welcome to Chinese!!</h1>
-    </div>
-  </div>
 
-  <div class = "cards">
-    <div class="cardGroup">
-      <div class="card">
-        <h2>Basic Greetings and Common Phrases</h2>
-        <a href="#greetings">
-          <input type="submit" value="start">
+	</script>
+	<div class="header">
+		<div class="title-chinese">
+			</br>
+			</br>
+			</br>
+			<h1 class="heading">Welcome to Chinese!!</h1>
+		</div>
+	</div>
+
+	<div class="cards">
+		<div class="cardGroup">
+			<div class="card">
+				<h2>Basic Greetings and Common Phrases</h2>
+				<a href="#greetings">
+					<input type="submit" value="start">
         </a>
       </div>
       <div class="card">
@@ -61,725 +101,896 @@
   <center>
     <a class="vocab-subtitle1" id="greetings">Basic Greetings and Common Phrases</a>
   </center>
-  <div>
-    </br>
-    <h3 class="vocab-subtitle">Basic Greetings</h3>
-    <br>
-    <div>
-      <h3 class="vocab">Hello - 你好</h3>
-      <h3 class="vocab">/nǐ hǎo/</h3>
-      <div align="center">
-        <audio controls>
-            <source src="https://audio.jukehost.co.uk/OWQ9yAfj6lAiDgwqPtNS56tVuzZgXRh9"/>
-            Your browser does not support the audio element.
-        </audio>
-      </div>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Greetings</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Hello - 你好</h3>
+          <h3 class="vocab">/nǐ hǎo/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/OWQ9yAfj6lAiDgwqPtNS56tVuzZgXRh9"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">Goodbye - 再见</h3>
+          <h3 class="vocab">/zài jiàn/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/Muzb7N0nvXiX52Ppm52HkTjhwkp6eyhP"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">How are you? - 你好吗？</h3>
+          <h3 class="vocab">/nǐ hǎo ma/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/J0sHMJ9LMIqwdSB5DQllP32cWsBQVSpJ"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-4">
+          <h3 class="vocab">Good Morning - 早上好</h3>
+          <h3 class="vocab">/zǎo shang hǎo/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/LlM1hHPdkHIqMohzrapGMMsmdzKTiU1v"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-5">
+          <h3 class="vocab">Good Afternoon - 下午好</h3>
+          <h3 class="vocab">/xià wǔ hǎo/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/9GrM2wRSnc8VW2DvkCsBiQzf0gCqBgHl"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">Goodnight - 晚上好</h3>
+          <h3 class="vocab">/wǎn shàng hǎo/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/k8iML8n8zjxnmQA6qr55T6psYPAM8Fhq"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
     </div>
-    <br>
-    <div>
-      <h3 class="vocab">Goodbye - 再见</h3>
-      <h3 class="vocab">/zài jiàn/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/Muzb7N0nvXiX52Ppm52HkTjhwkp6eyhP"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">How are you? - 你好吗？</h3>
-      <h3 class="vocab">/nǐ hǎo ma/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/J0sHMJ9LMIqwdSB5DQllP32cWsBQVSpJ"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Good Morning - 早上好</h3>
-      <h3 class="vocab">/zǎo shang hǎo/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/LlM1hHPdkHIqMohzrapGMMsmdzKTiU1v"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Good Afternoon - 下午好</h3>
-      <h3 class="vocab">/xià wǔ hǎo/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/9GrM2wRSnc8VW2DvkCsBiQzf0gCqBgHl"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Goodnight - 晚上好</h3>
-      <h3 class="vocab">/wǎn shàng hǎo/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/k8iML8n8zjxnmQA6qr55T6psYPAM8Fhq"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
+
+    <div class="container-fluid">
+    <h3 class="mt-5">Common Phrases</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Thank you - 谢谢</h3>
+          <h3 class="vocab">/xiè xie/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/b4IalXF56LWVUI1L8BQbfbEZ8BNbxCwY"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">You’re welcome - 不客气</h3>
+          <h3 class="vocab">/bú kè qi/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/xWCgAu7tDtqAByJMHcilkWu2NhL1hzzf"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">Today - 今天</h3>
+          <h3 class="vocab">/jīn tiān/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/8u9Ob7pUaPINDEugi6f0OBGmqSQ2AQt4"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-4">
+          <h3 class="vocab">Tomorrow - 明天</h3>
+          <h3 class="vocab">/míng tiān/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/hIqMI8hAbp7OtoAbXraSDs8orlhdXgGU"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-5">
+          <h3 class="vocab">Yesterday - 昨天</h3>
+          <h3 class="vocab">/zuó tiān/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/2J6jT3Tl4K5s5Zw9L429hkao1484Xotq"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">The day after tomorrow - 后天</h3>
+          <h3 class="vocab">/hòu tiān/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/01b8aRcFyNjEr2YgfaywsJitsYm0XyDv"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-7">
+          <h3 class="vocab">Monday - 星期一</h3>
+          <h3 class="vocab">/xīng qī yī/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/aNpZ3BVGOKtoWZj2rdhK0lRrojTur2l8"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-8">
+          <h3 class="vocab">Tuesday - 星期二</h3>
+          <h3 class="vocab">/xīng qī èr/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/0Rne03kkSEpWaDfegvBxWgy1qrWNVJT6"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-9">
+          <h3 class="vocab">Wednesday - 星期三</h3>
+          <h3 class="vocab">/xīng qī sān/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/0YsCBAbPsR1fCOJYtc2U9GFmLW0HVjhT"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-10">
+          <h3 class="vocab">Thursday - 星期四</h3>
+          <h3 class="vocab">/xīng qī sì/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/or7fXlIol8ZWA23ROFND2l83Y9CVvn0R"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-11">
+          <h3 class="vocab">Friday - 星期五</h3>
+          <h3 class="vocab">/xīng qī wǔ/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/HGLMyAuTDEILRpQm2yzL3liH0Mqyc09U"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-12">
+          <h3 class="vocab">Saturday - 星期六</h3>
+          <h3 class="vocab">/xīng qī liù/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/TIjkm62stfttK4BsMJtgGe3p3OOWo2hZ"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-13">
+          <h3 class="vocab">Sunday - 星期天</h3>
+          <h3 class="vocab">/xīng qī tiān/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/dCbGkZWTvZl7zeetMkMWHecRRRkJ0GRr"/>
+              Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+			</div>
     </div>
   </div>
+
   
+    </div>
+    <br>
+    
+    <h3 class="vocab-subtitle"></h3>
   <!-- From here are the common Phrases -->
-  <div>
-    <h3 class="vocab-subtitle">Common Phrases</h3>
-    <br>
-    <div>
-      <h3 class="vocab">Thank you - 谢谢</h3>
-      <h3 class="vocab">/xiè xie/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/b4IalXF56LWVUI1L8BQbfbEZ8BNbxCwY"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
+  <!--Start of Asking for Directions Unit-->
+  
+  <br>
+  <div class="container-fluid">
+    <h3 class="mt-5">Example Conversations</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-1 card-block2">
+          <h3 class="vocab">Q: Hi! How are you? 你好吗？</h3>
+          <h3 class="vocab">/nǐ hǎo ma?/</h3>
+          <h3 class="vocab">A: I’m great, thank you! 我很好，谢谢！</h3>
+          <h3 class="vocab">/wǒ hěn hǎo, xiè xie/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/tPoxrI94BgENQQWS8OOwGe2r1A1SHOmC"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-2 card-block2">
+          <h3 class="vocab">Q: What day of the week is it today? 今天是星期几？</h3>
+          <h3 class="vocab">/jīn tiān shì xīng qī jǐ?/</h3>
+          <h3 class="vocab">A: Today is Sunday 今天是星期天。</h3>
+          <h3 class="vocab">/jīn tiān shì xīng qī tiān/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/U8AvySqdJPrROwS0KM0h5QPoRdWgUMnl"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
     </div>
-    <br>
-    <div>
-      <h3 class="vocab">You’re welcome - 不客气</h3>
-      <h3 class="vocab">/bú kè qi/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/xWCgAu7tDtqAByJMHcilkWu2NhL1hzzf"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Today - 今天</h3>
-      <h3 class="vocab">/jīn tiān/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/8u9Ob7pUaPINDEugi6f0OBGmqSQ2AQt4"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Tomorrow - 明天</h3>
-      <h3 class="vocab">/míng tiān/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/hIqMI8hAbp7OtoAbXraSDs8orlhdXgGU"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Yesterday - 昨天</h3>
-      <h3 class="vocab">/zuó tiān/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/2J6jT3Tl4K5s5Zw9L429hkao1484Xotq"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">The day after tomorrow - 后天</h3>
-      <h3 class="vocab">/hòu tiān/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/01b8aRcFyNjEr2YgfaywsJitsYm0XyDv"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Monday - 星期一</h3>
-      <h3 class="vocab">/xīng qī yī/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/aNpZ3BVGOKtoWZj2rdhK0lRrojTur2l8"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Tuesday - 星期二</h3>
-      <h3 class="vocab">/xīng qī èr/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/0Rne03kkSEpWaDfegvBxWgy1qrWNVJT6"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Wednesday - 星期三</h3>
-      <h3 class="vocab">/xīng qī sān/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/0YsCBAbPsR1fCOJYtc2U9GFmLW0HVjhT"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Thursday - 星期四</h3>
-      <h3 class="vocab">/xīng qī sì/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/or7fXlIol8ZWA23ROFND2l83Y9CVvn0R"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Friday - 星期五</h3>
-      <h3 class="vocab">/xīng qī wǔ/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/HGLMyAuTDEILRpQm2yzL3liH0Mqyc09U"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Saturday - 星期六</h3>
-      <h3 class="vocab">/xīng qī liù/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/TIjkm62stfttK4BsMJtgGe3p3OOWo2hZ"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Sunday - 星期天</h3>
-      <h3 class="vocab">/xīng qī tiān/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/dCbGkZWTvZl7zeetMkMWHecRRRkJ0GRr"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab-subtitle">Example Conversations</h3>
-    <br>
-    <div>
-      <h3 class="vocab">Q: Hi! How are you? 你好吗？</h3>
-      <h3 class="vocab">/nǐ hǎo ma?/</h3>
-      <h3 class="vocab">A: I’m great, thank you! 我很好，谢谢！</h3>
-      <h3 class="vocab">/wǒ hěn hǎo, xiè xie/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/tPoxrI94BgENQQWS8OOwGe2r1A1SHOmC"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Q: What day of the week is it today? 今天是星期几？</h3>
-      <h3 class="vocab">/jīn tiān shì xīng qī jǐ?/</h3>
-      <h3 class="vocab">A: Today is Sunday 今天是星期天。</h3>
-      <h3 class="vocab">/jīn tiān shì xīng qī tiān/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/U8AvySqdJPrROwS0KM0h5QPoRdWgUMnl"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  </div>
-<!--Start of Asking for Directions Unit-->
+
   <center>
     <a class="vocab-subtitle1" id="directions">Asking for Directions</a>
   </center>
-  <br>
-  <h3 class="vocab-subtitle">Basic Sentences</h3>
-  <br>
-  <div>
-      <h3 class="vocab">Where is ___? - ___在哪里？</h3>
-      <h3 class="vocab">/zài nǎ lǐ/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/6EQTHbTjsZRQRvoQUyzutodZpbWQym4g"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-  </div>
-  <br>
-  <div>
-    <h3 class="vocab">How far is ___? - ___多远?</h3>
-    <h3 class="vocab">/duō yuǎn/</h3>
-    <div align="center">
-      <audio controls>
-        <source src="https://audio.jukehost.co.uk/Z1DjXK49cLzjG7mQhRzWXu0ljaZM9P5k"/>
-        Your browser does not support the audio element.
-      </audio>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Sentences</h3>
+      <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+        <div class="col-3">
+          <div class="card card-block card-1">
+            <h3 class="vocab">Where is ___? - ___在哪里？</h3>
+            <h3 class="vocab">/zài nǎ lǐ/</h3>
+            <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/6EQTHbTjsZRQRvoQUyzutodZpbWQym4g"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card card-block card-1">
+            <h3 class="vocab">How far is ___? - ___多远?</h3>
+            <h3 class="vocab">/duō yuǎn/</h3>
+            <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/Z1DjXK49cLzjG7mQhRzWXu0ljaZM9P5k"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card card-block card-1">
+            <h3 class="vocab">我怎么去那里？</h3>
+            <h3 class="vocab">/wǒ zěn me qù nà li/</h3>
+            <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/KqKhq0MIzheZKI23dQMJeIWd57M4xEbJ"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
-    <br>
-    <div>
-      <h3 class="vocab">我怎么去那里？</h3>
-      <h3 class="vocab">/wǒ zěn me qù nà li/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/KqKhq0MIzheZKI23dQMJeIWd57M4xEbJ"/>
-          Your browser does not support the audio element.
-        </audio>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Phrases for Navigating</h3>
+      <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+        <div class="col-3">
+          <div class="card card-block card-1">
+            <h3 class="vocab">Direction - 方向</h3>
+            <h3 class="vocab">/fāng xiàng/</h3>
+            <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/izKhFjzyTN34uF5aGxFQIVwItvboX5Y6"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Place - 地方</h3>
+          <h3 class="vocab">/dì fāng/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/AmhjmsN2GeOQ7lN84LK2Crv22LxBgqcp"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Left - 左边 </h3>
+          <h3 class="vocab">/zuǒ bian/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/lAZ6YHTKg1eUTzOLwD1juipq5aNqIbsQ"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">To the left of (the) ___ - 在___的左边</h3>
+          <h3 class="vocab">/zài___de zuǒ bian/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/ABhuIvYLfH1z76yzMbVEV3w87Yiij1zc"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Right - 右边</h3>
+          <h3 class="vocab">/yòu bian/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/WqMwkg0K880ahkxjSaTfospUlqRED0gS"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">To the right of (the) ___ - 在___的右边</h3>
+          <h3 class="vocab">/zài___de yòu bian/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/h4uMcHl0fxrPr6Gck8YuzjxYqshJ7XBz"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Straight ahead - 前方</h3>
+          <h3 class="vocab">/qián fāng/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/sAosErDsKxKxFepTWxyPn0lTuJXHEyxr"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Near - 进</h3>
+          <h3 class="vocab">/jìn/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/FJv0sBZwiT2NJmAU4207vBymzIUb2Kwi"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Far - 远</h3>
+          <h3 class="vocab">/yuǎn/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/pOjaSmKRbxa74cj1ohtb1KRF1ghNwHFi"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
       </div>
     </div>
-    <br>
-  <h3 class="vocab-subtitle">Phrases for Navigating</h3>
-  <br>
-  <h3 class="vocab">Direction - 方向</h3>
-      <h3 class="vocab">/fāng xiàng/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/izKhFjzyTN34uF5aGxFQIVwItvboX5Y6"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Place - 地方</h3>
-      <h3 class="vocab">/dì fāng/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/AmhjmsN2GeOQ7lN84LK2Crv22LxBgqcp"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Left - 左边 </h3>
-      <h3 class="vocab">/zuǒ bian/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/lAZ6YHTKg1eUTzOLwD1juipq5aNqIbsQ"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">To the left of (the) ___ - 在___的左边</h3>
-      <h3 class="vocab">/zài___de zuǒ bian/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/ABhuIvYLfH1z76yzMbVEV3w87Yiij1zc"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Right - 右边</h3>
-      <h3 class="vocab">/yòu bian/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/WqMwkg0K880ahkxjSaTfospUlqRED0gS"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">To the right of (the) ___ - 在___的右边</h3>
-      <h3 class="vocab">/zài___de yòu bian/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/h4uMcHl0fxrPr6Gck8YuzjxYqshJ7XBz"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Straight ahead - 前方</h3>
-      <h3 class="vocab">/qián fāng/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/sAosErDsKxKxFepTWxyPn0lTuJXHEyxr"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Near - 进</h3>
-      <h3 class="vocab">/jìn/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/FJv0sBZwiT2NJmAU4207vBymzIUb2Kwi"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Far - 远</h3>
-      <h3 class="vocab">/yuǎn/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/pOjaSmKRbxa74cj1ohtb1KRF1ghNwHFi"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  <h3 class="vocab-subtitle">Destinations</h3>
-  <br>
-  <h3 class="vocab">Store - 商店</h3>
-      <h3 class="vocab">/shāng diàn/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/idEGZHdUFuONiAO2SHR4Wz5wmEZv7gzK"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Supermarket - 超级市场</h3>
-      <h3 class="vocab">/chāo jí shì chǎng/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/yCnBefmvlZDdsJapKRnhJBMKKYBWrB5r"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Restaurant - 餐厅</h3>
-      <h3 class="vocab">/cān tīng/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/AczbaRZXNZ6DUFh30gCeZLZd1zBG3CHI"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Park - 公园</h3>
-      <h3 class="vocab">/gōng yuán/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/VbG3SPB2IsXUS2oo9ZvJqJN0OIy5QCLR"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Bank - 银行</h3>
-      <h3 class="vocab">/yín háng/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/J9C9WhECdZKQ79qtphSlMxWAHoePLYXZ"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Hospital - 医院</h3>
-      <h3 class="vocab">/yī yuàn/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/P9k2raZiAlnsfkXm5tVCa5OLNXtmKiBa"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  <h3 class="vocab-subtitle">Example Conversations</h3>
-  <br>
-  <div>
-      <h3 class="vocab">Q: Where is the park? 公园在哪里？</h3>
-      <h3 class="vocab">/gōng yuán zài nǎ lǐ?/</h3>
-      <h3 class="vocab">A: The park is near the supermarket. 公园离超级市场很近。</h3>
-      <h3 class="vocab">/gōng yuán lí chāo jí shì chǎng hěn jìn/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/5N0IprMAEetCdZi71fVTZcIoSDxuF0fV"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Q: How far is the hospital from here? 医院离这里多远？</h3>
-      <h3 class="vocab">/yī yuàn lí zhè lǐ duō yuǎn?/</h3>
-      <h3 class="vocab">A: The hospital is very far from here. 医院离这里很远。</h3>
-      <h3 class="vocab">/yī yuàn lí zhè lǐ hěn yuǎn./</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/Mvu9qYFnkrEURlc3xgB4W2uYUSHJZOJF"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Q: How do I get to the restaurant? 从这里要怎么到餐厅？</h3>
-      <h3 class="vocab">/cóng zhè lǐ yào zěn me dào cān tīng？/</h3>
-      <h3 class="vocab">A: Go ahead, make a right, and you will see the restaurant. 直走，再右转，你就会看到餐厅。</h3>
-      <h3 class="vocab">/zhí zǒu，zài yòu zhuǎn，nǐ jiù huì kàn dào cān tīng/</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/jG46BjS5VYMsl770HeX4qK9irYxxswwB"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
   </div>
-  <br>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Destinations</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Store - 商店</h3>
+          <h3 class="vocab">/shāng diàn/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/idEGZHdUFuONiAO2SHR4Wz5wmEZv7gzK"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Supermarket - 超级市场</h3>
+          <h3 class="vocab">/chāo jí shì chǎng/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/yCnBefmvlZDdsJapKRnhJBMKKYBWrB5r"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Restaurant - 餐厅</h3>
+          <h3 class="vocab">/cān tīng/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/AczbaRZXNZ6DUFh30gCeZLZd1zBG3CHI"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Park - 公园</h3>
+          <h3 class="vocab">/gōng yuán/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/VbG3SPB2IsXUS2oo9ZvJqJN0OIy5QCLR"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Bank - 银行</h3>
+          <h3 class="vocab">/yín háng/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/J9C9WhECdZKQ79qtphSlMxWAHoePLYXZ"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Hospital - 医院</h3>
+          <h3 class="vocab">/yī yuàn/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/P9k2raZiAlnsfkXm5tVCa5OLNXtmKiBa"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Example Conversations</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+      <div class="col-3">
+        <div class="card card-1 card-block2">
+          <h3 class="vocab">Q: Where is the park? 公园在哪里？</h3>
+          <h3 class="vocab">/gōng yuán zài nǎ lǐ?/</h3>
+          <h3 class="vocab">A: The park is near the supermarket. 公园离超级市场很近。</h3>
+          <h3 class="vocab">/gōng yuán lí chāo jí shì chǎng hěn jìn/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/5N0IprMAEetCdZi71fVTZcIoSDxuF0fV"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-2 card-block2">
+          <h3 class="vocab">Q: How far is the hospital from here? 医院离这里多远？</h3>
+          <h3 class="vocab">/yī yuàn lí zhè lǐ duō yuǎn?/</h3>
+          <h3 class="vocab">A: The hospital is very far from here. 医院离这里很远。</h3>
+          <h3 class="vocab">/yī yuàn lí zhè lǐ hěn yuǎn./</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/Mvu9qYFnkrEURlc3xgB4W2uYUSHJZOJF"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-2 card-block2">
+          <h3 class="vocab">Q: How do I get to the restaurant? 从这里要怎么到餐厅？</h3>
+          <h3 class="vocab">/cóng zhè lǐ yào zěn me dào cān tīng？/</h3>
+          <h3 class="vocab">A: Go ahead, make a right, and you will see the restaurant. 直走, 再右转, 你就会看到餐厅。</h3>
+          <h3 class="vocab">/zhí zǒu, zài yòu zhuǎn, nǐ jiù huì kàn dào cān tīng/</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/jG46BjS5VYMsl770HeX4qK9irYxxswwB"/>
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
   <!--Start of Weather Unit-->
   <center>
     <a class="vocab-subtitle1" id="weather">Weather</a>
   </center>
-  <br>
-    <br>
-    <h3 class="vocab-subtitle">Basic Phrases</h3>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Sentences</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Weather report - 气象预报</h3>
+          <h3 class="vocab">/qì xiàng yù bào/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/UmpHDnwIRQbedkT5vDS1NwWU5NoVAyHK"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Seasons - 季节</h3>
+          <h3 class="vocab">/jì jié/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/mJ7UemkdgK5JPIIfjcUlfTkK1KHvWQXv"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Temperature - 温度</h3>
+          <h3 class="vocab">/wēn dù/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/avd31NtXrMDVwURZ55VYgyzVrUmFU8n2"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Sentences</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+      <div class="col-3">
+        <div class="card card-1 card-block2">
+          <h3 class="vocab">What’s the weather like today? - 今天天气怎么样？</h3>
+          <h3 class="vocab">/jīn tiān tiān qì zěn me yàng/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/ZrBnm8yPPrnkfZf5vulHCBCVmAXX4mHl"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">The Four Seasons</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Spring - 春天</h3>
+          <h3 class="vocab">/chūn tiān/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/RisgVkHvXulHTAEXlZDFxUSUbLscy2DE"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Summer - 夏天</h3>
+          <h3 class="vocab">/xià tiān/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/8cP1l4C3Ni3QLbfEZw3t7AM3GqYJzWyd"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Autumn - 秋天</h3>
+          <h3 class="vocab">/qiū tiān/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/ZjDBJhWuasmqcAFYmLhUiKkTjVxTSm4d"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Winter - 冬天</h3>
+          <h3 class="vocab">/dōng tiān/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/Wy7n9uPlbQR4MJ1OujLvpzYyt5aqN691"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Temperatures</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Hot - 热</h3>
+          <h3 class="vocab">/rè/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/R3A3I4a5LDVw3WwhVZzEcaNL6Jg0AWKQ"/>
+                Your browser does not support the audio element.
+              </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Cold - 冷</h3>
+          <h3 class="vocab">/lěng/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/gnBUd8kFmQWeSPgeH8j59SxOwOEOvxoN"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Warm - 温暖</h3>
+          <h3 class="vocab">/wēn nuǎn/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/1Wkdk0aXY5R1zf5aMfxttSBzeKLN5jpk"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Cool - 凉快</h3>
+          <h3 class="vocab">/liáng kuai/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/jim1bTXH5ri3oDF6dqpBHd5wxw2iMj5P"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Dry - 干燥</h3>
+          <h3 class="vocab">/gān zào/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/l3O73XB6oug02V5vfRuSKF4zectQYCZp"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Humid - 潮湿</h3>
+          <h3 class="vocab">/cháo shī/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/2IxCAghUekINj4GBsa1dvTIxdOIgPWcE"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Weather Phenomenon</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Sunny - 晴天</h3>
+          <h3 class="vocab">/qíng tiān/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/z9ajQfkWEsfEZeIxFw5XgD4VRtADz3Na"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Cloudy - 多云</h3>
+          <h3 class="vocab">/duō yún/</h3>
+          <div align=center>
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/0uJA6JRh24E6xFutJ9iC29U4LP1hKypU"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Rain - 雨</h3>
+          <h3 class="vocab">/yǔ/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/8mFEV9SxrtszsMv3QMo3ZePKQRKcbyDe"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Wind - 风</h3>
+          <h3 class="vocab">/fēng/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/ey00txzy3sN9QDFDAk8xY1p0iBzK9kge"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Fog - 雾</h3>
+          <h3 class="vocab">/wù/</h3>
+          <div align="center">
+            <audio controls>
+                <source src="https://audio.jukehost.co.uk/WVDJIUydjICcMuy3ZGLobL6F6V17S6rB"/>
+                Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+          <h3 class="vocab">Snow - 雪</h3>
+          <h3 class="vocab">/xuě/</h3>
+          <div align="center">
+              <audio controls>
+                <source src="https://audio.jukehost.co.uk/elPfNchN9hY8BOyi1maLep50p3KUtD2B"/>
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card card-block card-1">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <h3 class="vocab-subtitle"></h3>
     <br>
     <div>
-        <h3 class="vocab">Weather report - 气象预报</h3>
-        <h3 class="vocab">/qì xiàng yù bào/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/UmpHDnwIRQbedkT5vDS1NwWU5NoVAyHK"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
+        
     </div>
     <br>
     <div>
-        <h3 class="vocab">Seasons - 季节</h3>
-        <h3 class="vocab">/jì jié/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/mJ7UemkdgK5JPIIfjcUlfTkK1KHvWQXv"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
+        
     </div>
     <br>
     <div>
-        <h3 class="vocab">Temperature - 温度</h3>
-        <h3 class="vocab">/wēn dù/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/avd31NtXrMDVwURZ55VYgyzVrUmFU8n2"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <h3 class="vocab-subtitle">Basic Sentences</h3>
-    <br>
-    <div>
-        <h3 class="vocab">What’s the weather like today? - 今天天气怎么样？</h3>
-        <h3 class="vocab">/jīn tiān tiān qì zěn me yàng/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/ZrBnm8yPPrnkfZf5vulHCBCVmAXX4mHl"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <h3 class="vocab-subtitle">The Four Seasons</h3>
-    <br>
-    <div>
-        <h3 class="vocab">Spring - 春天</h3>
-        <h3 class="vocab">/chūn tiān/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/RisgVkHvXulHTAEXlZDFxUSUbLscy2DE"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
+        
     </div>
     <br>
     <div>
-        <h3 class="vocab">Summer - 夏天</h3>
-        <h3 class="vocab">/xià tiān/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/8cP1l4C3Ni3QLbfEZw3t7AM3GqYJzWyd"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
+        
     </div>
     <br>
     <div>
-        <h3 class="vocab">Autumn - 秋天</h3>
-        <h3 class="vocab">/qiū tiān/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/ZjDBJhWuasmqcAFYmLhUiKkTjVxTSm4d"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
+        
     </div>
     <br>
     <div>
-        <h3 class="vocab">Winter - 冬天</h3>
-        <h3 class="vocab">/dōng tiān/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/Wy7n9uPlbQR4MJ1OujLvpzYyt5aqN691"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <h3 class="vocab-subtitle">Temperatures</h3>
-    <br>
-    <div>
-        <h3 class="vocab">Hot - 热</h3>
-        <h3 class="vocab">/rè/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/R3A3I4a5LDVw3WwhVZzEcaNL6Jg0AWKQ"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Cold - 冷</h3>
-        <h3 class="vocab">/lěng/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/gnBUd8kFmQWeSPgeH8j59SxOwOEOvxoN"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Warm - 温暖</h3>
-        <h3 class="vocab">/wēn nuǎn/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/1Wkdk0aXY5R1zf5aMfxttSBzeKLN5jpk"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Cool - 凉快</h3>
-        <h3 class="vocab">/liáng kuai/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/jim1bTXH5ri3oDF6dqpBHd5wxw2iMj5P"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Dry - 干燥</h3>
-        <h3 class="vocab">/gān zào/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/l3O73XB6oug02V5vfRuSKF4zectQYCZp"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Humid - 潮湿</h3>
-        <h3 class="vocab">/cháo shī/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/2IxCAghUekINj4GBsa1dvTIxdOIgPWcE"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <h3 class="vocab-subtitle">Weather Phenomenon</h3>
-    <br>
-    <div>
-        <h3 class="vocab">Sunny - 晴天</h3>
-        <h3 class="vocab">/qíng tiān/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/z9ajQfkWEsfEZeIxFw5XgD4VRtADz3Na"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Cloudy - 多云</h3>
-        <h3 class="vocab">/duō yún/</h3>
-        <div align=center>
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/0uJA6JRh24E6xFutJ9iC29U4LP1hKypU"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Rain - 雨</h3>
-        <h3 class="vocab">/yǔ/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/8mFEV9SxrtszsMv3QMo3ZePKQRKcbyDe"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Wind - 风</h3>
-        <h3 class="vocab">/fēng/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/ey00txzy3sN9QDFDAk8xY1p0iBzK9kge"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Fog - 雾</h3>
-        <h3 class="vocab">/wù/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/WVDJIUydjICcMuy3ZGLobL6F6V17S6rB"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-    </div>
-    <br>
-    <div>
-        <h3 class="vocab">Snow - 雪</h3>
-        <h3 class="vocab">/xuě/</h3>
-        <div align="center">
-          <audio controls>
-            <source src="https://audio.jukehost.co.uk/elPfNchN9hY8BOyi1maLep50p3KUtD2B"/>
-            Your browser does not support the audio element.
-          </audio>
-        </div>
+        
     </div>
     <br>
     <div>

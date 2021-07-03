@@ -16,8 +16,34 @@
       scroll-behavior: smooth;
     }
 
-		a. {
+		a. {}
 
+		.scrolling-wrapper {
+			overflow-x: auto;
+		}
+
+		h1 {
+			font-weight: 800;
+			font-size: 3em;
+		}
+
+		.subtitle {
+			font-size: 1.25em;
+			opacity: 0.65;
+		}
+
+		.card-block {
+			height: 250px;
+			background-color: #fff;
+			border: none;
+			background-position: center;
+			background-size: cover;
+			transition: all 0.2s ease-in-out !important;
+			border-radius: 24px;
+			&:hover {
+				transform: translateY(-5px);
+				box-shadow: none;
+			}
 		}
 	</style>
 </head>
@@ -58,479 +84,569 @@
     </div>
   </div>
 
-  <a class="vocab-subtitle" id="greetings">Basic Greetings and Common Phrases</a>
-  <div>
-    </br>
-    <h3 class="vocab-subtitle">Basic Greetings</h3>
-    <br>
-    <div>
-      <h3 class="vocab">Hello - Hola</h3>
-      <div align="center">
-        <audio controls>
-            <source src="https://audio.jukehost.co.uk/9CTDM6eGFh28xe8ZT6mI48uznB343CWe"/>
+  <center>
+    <a class="vocab-subtitle1" id="greetings">Basic Greetings and Common Phrases</a>
+  </center>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Greetings</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Hello - Hola</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/9CTDM6eGFh28xe8ZT6mI48uznB343CWe"/>
             Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Goodbye - Adiós</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/1875OXa9cCkz0w694xsdjUqphOKRtZih"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">Goodbye - Adiós</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/1875OXa9cCkz0w694xsdjUqphOKRtZih"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">How are you? - ¿Cómo estás?</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/XBCpLQXd0DSFNuMjxUCQEG9nUNGIV5cZ"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">How are you? - ¿Cómo estás?</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/XBCpLQXd0DSFNuMjxUCQEG9nUNGIV5cZ"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Good Morning - Buenos días</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/7LLoA4M8bmBQvRCNQpv3gqBx3MbTYvtJ"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-4">
+          <h3 class="vocab">Good Morning - Buenos días</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/7LLoA4M8bmBQvRCNQpv3gqBx3MbTYvtJ"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Good Afternoon - Buenas tardes</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/wbLyLHLCAWT5lAt8pZ432BNZAWUjJhcB"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-5">
+          <h3 class="vocab">Good Afternoon - Buenas tardes</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/wbLyLHLCAWT5lAt8pZ432BNZAWUjJhcB"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Goodnight - Buenas noches</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/5O1i9BRMrpCi8ENqZYPB78acRLt8qnJf"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">Goodnight - Buenas noches</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/5O1i9BRMrpCi8ENqZYPB78acRLt8qnJf"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
+            </audio>
+          </div>          
+        </div>
+			</div>
     </div>
   </div>
-  
-  <!-- From here are the comman Phrases -->
-  <div>
-    <h3 class="vocab-subtitle">Common Phrases</h3>
-    <br>
-    <div>
-      <h3 class="vocab">Thank you - Gracias</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/g3PVLqIuI7FkkE3R8hY4qeXpvNBO1IFT"/>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Common Phrases</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Thank you - Gracias</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/g3PVLqIuI7FkkE3R8hY4qeXpvNBO1IFT"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">You’re welcome - De nada</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/jccZLCG7wXSWzSDvj98e89a5Ey63IIkX"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">You’re welcome - De nada</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/jccZLCG7wXSWzSDvj98e89a5Ey63IIkX"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Today - Hoy</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/EP5B0Avzf25WDp0YPLN3bDUvKzrqs4CN"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">Today - Hoy</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/EP5B0Avzf25WDp0YPLN3bDUvKzrqs4CN"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Tomorrow - Mañana</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/WES3MvS8uwxeIMF9kSjFvEFlrbCPKWid"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-4">
+          <h3 class="vocab">Tomorrow - Mañana</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/WES3MvS8uwxeIMF9kSjFvEFlrbCPKWid"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Yesterday - Ayer</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/H4gHOPZVvTsKVUGDpSq2nFro5TQyV940"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-5">
+          <h3 class="vocab">Yesterday - Ayer</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/H4gHOPZVvTsKVUGDpSq2nFro5TQyV940"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">The day after tomorrow - El día después mañana</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/1eRUPFfxajK4OyPN90IusQP0gVQ9NU6T"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">The day after tomorrow - El día después mañana</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/1eRUPFfxajK4OyPN90IusQP0gVQ9NU6T"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Monday - Lunes</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/Nd5bQMuDCuFkveZuAeGWwCAMfS3RA6ZR"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-7">
+          <h3 class="vocab">Monday - Lunes</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/Nd5bQMuDCuFkveZuAeGWwCAMfS3RA6ZR"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Tuesday - Martes</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/1F2GVuQA24Wn2T9uB6FDW3np4pkUgEYQ"/>
+            </audio>
+          </div>   
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-8">
+          <h3 class="vocab">Tuesday - Martes</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/1F2GVuQA24Wn2T9uB6FDW3np4pkUgEYQ"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Wednesday - Miércoles</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/rIEttFltKwwb2vkAAFUmhoAlLOWBkHIZ"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-9">
+          <h3 class="vocab">Wednesday - Miércoles</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/rIEttFltKwwb2vkAAFUmhoAlLOWBkHIZ"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Thursday - Jueves</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/iWYHcssEvdhBrVdUHJBlUX9vbDkaYv3B"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-10">
+          <h3 class="vocab">Thursday - Jueves</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/iWYHcssEvdhBrVdUHJBlUX9vbDkaYv3B"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Friday - Viernes</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/IkOuJ3fnDy9AKDZJ0zCSJrvvM9OM1tBb"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-11">
+          <h3 class="vocab">Friday - Viernes</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/IkOuJ3fnDy9AKDZJ0zCSJrvvM9OM1tBb"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Saturday - Sábado</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/mRVfOjrMvvhNdP32IbBm8sKOftuyQk9d"/>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-12">
+          <h3 class="vocab">Saturday - Sábado</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/mRVfOjrMvvhNdP32IbBm8sKOftuyQk9d"/>
           Your browser does not support the audio element.
-        </audio>
+            </audio>
+          </div>
+        </div>
       </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Sunday - Domingo</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/AJ8IcCnZMGoemdNDQpVyKto2aNS4UuTl"/>
+			<div class="col-3">
+				<div class="card card-block card-13">
+          <h3 class="vocab">Sunday - Domingo</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/AJ8IcCnZMGoemdNDQpVyKto2aNS4UuTl"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
+            </audio>
+          </div>     
+        </div>
+			</div>
     </div>
-    <br>
-    <h3 class="vocab-subtitle">Example Conversations</h3>
-    <br>
-    <div>
-      <h3 class="vocab">Q: Hi! How are you?  ¡Hola! ¿Cómo estás?</h3>
-      <h3 class="vocab">A: I’m great, thank you! Estoy bien, gracias!</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/zJvt6QoVnwaHk6ZYXzLE5nirUdAczffP"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Q: What day of the week is it today? ¿Qué día de la semana es hoy?</h3>
-      <h3 class="vocab">A: Today is Sunday. Hoy es Domingo.</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/artfkgxgXamncFDpLkUj9VWczijeBdYd"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
   </div>
 
-
-
-
-
-<!--Start of Asking for Directions Unit-->
-  <div>
-    <a class="vocab-subtitle" id="directions">Asking for Directions</a>
-  <br>
-  <h3 class="vocab-subtitle">Basic Sentences</h3>
-  <br>
-  <div>
-      <h3 class="vocab">Where is ___? - ¿Dónde está ___?</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/IFl5VQsf9Paojb7TGyMHMBwCVNUoP7po"/>
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Greetings</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Q: Hi! How are you?  ¡Hola! ¿Cómo estás?</h3>
+          <h3 class="vocab">A: I’m great, thank you! Estoy bien, gracias!</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/zJvt6QoVnwaHk6ZYXzLE5nirUdAczffP"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">Q: What day of the week is it today? ¿Qué día de la semana es hoy?</h3>
+          <h3 class="vocab">A: Today is Sunday. Hoy es Domingo.</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/artfkgxgXamncFDpLkUj9VWczijeBdYd"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+    </div>
   </div>
-  <br>
-  <div>
-    <h3 class="vocab">How far is ___? - ¿Qué tan lejos está ___?</h3>
-    <div align="center">
-      <audio controls>
-        <source src="https://audio.jukehost.co.uk/sH9z85JwmXc9nJWu7siGquMWheO4GCAz"/>
+
+  <!-- Directions Unit -->
+  <center>
+    <a class="vocab-subtitle1" id="directions">Asking for Directions</a>
+  </center>
+
+<!-- Basic Sentences -->
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Sentences</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Where is ___? - ¿Dónde está ___?</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/IFl5VQsf9Paojb7TGyMHMBwCVNUoP7po"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">How far is ___? - ¿Qué tan lejos está ___?</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/sH9z85JwmXc9nJWu7siGquMWheO4GCAz"/>
         Your browser does not support the audio element.
-      </audio>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">How do I get there? - ¿Cómo voy hasta ahí</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/EwAaK8Iw6FR0jZyigPF519iHThFqJqrA"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
     </div>
   </div>
-    <br>
-    <div>
-      <h3 class="vocab">How do I get there? - ¿Cómo voy hasta ahí</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/EwAaK8Iw6FR0jZyigPF519iHThFqJqrA"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  <h3 class="vocab-subtitle">Phrases for Navigating</h3>
-  <br>
-  <h3 class="vocab">Direction - Dirección</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/jYr2YYi1mL4vo5LQqa6ka7ms6tfGySRg"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Place - Lugar</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/3RJSlUAbZ4fsyl2noGYBHL4ZWjuapb0K"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Left - Izquierdo </h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/c6LfWi7T7fSWigNwuqvOlJHpUXxH1AuL"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">To the left of (the) ___ - A la izquierda de (el/la) ___</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/ch2wSMKLeD4Sf9lL9pjoI0SBRPZKA5zo"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Right - Derecho</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/cjRemibASRXIe6MlCRG6qnCleqFmBbCh"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">To the right of (the) ___ - A la derecho/a de (el/la) ___</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/6yJxBfkJWtqiQuwxDD9X8fH93n5qDv6E"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Straight ahead - Todo recto</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/hrrHiuiZeut1nuvWJ9I9BsjXUpqQOqlE"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Near - Cerca</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/DmAG1wgldzORH3Zvj6Osx3IZdqRhbtYV"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Far - Lejos</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/qQCCP8lkPv49DkJ4ToaqSXssRtezAIq0"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  <h3 class="vocab-subtitle">Destinations</h3>
-  <br>
-  <h3 class="vocab">Store - Tienda</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/X9yIQpcJjwve9V7ytt5qZhrESZ19rZXW"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Supermarket - Supermercado</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/boflllwqIoDMsrIDa77KhrFToDnGTrs4"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Restaurant - Restaurante</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/TymEyMFkIZMcKZGmlhP1isFXfFwSFKDh"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Park - Parque</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/yeoEC4g1fnuMP6PIXfFGuReViOu4R9uC"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Bank - Banco</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/s79f97JY0zlnMlhjlBycBVJNWbHIZnGD"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Hospital - Hospital</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/o4wRpwI5vzTcPciYU5ssyvzuwHMutapi"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  <h3 class="vocab-subtitle">Example Conversations</h3>
-  <br>
-  <div>
-      <h3 class="vocab">Q: Where is the park? ¿Dónde está el parque?</h3>
-      <h3 class="vocab">A: The park is near the supermarket. El parque está cerca del supermercado.</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/SoGOpuezXj6qDOoqSqpnGVtJGSH99x9X"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Q: How far is the hospital from here? ¿Cómo lejos está el hospital de aquí?</h3>
-      <h3 class="vocab">A: The hospital is very far from here. El hospital está muy lejos de aquí.</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/B6LMbW7O5WK2ED01LVhxC5NqxTYEQNM4"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Q: How do I get to the restaurant? ¿Cómo puede llegar al restaurante?</h3>
-      <h3 class="vocab">A: Go ahead, make a right, and you will see the restaurant. Adelante, haga una delante, y verá el restaurante.</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/mlJtiiwimRgaY6vKJVDNv5ADQB8skFEc"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  </div>
-  <br>
 
-  <!--Start of Weather Unit-->
-<a class="vocab-subtitle" id="weather">Weather</a>
-    <h3 class="vocab-subtitle">Basic Phrases</h3>
-    <br>
-    <h3 class="vocab">Weather report- Informe del tiempo</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/gbWI0AtlDv6jYqRVvGWM6iZBybVds5vY"/>
+  <div class="container-fluid">
+    <h3 class="mt-5">Phrases for Navigation</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Direction - Dirección</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/jYr2YYi1mL4vo5LQqa6ka7ms6tfGySRg"/>
           Your browser does not support the audio element.
-        </audio>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">Place - Lugar</h3>
+          <div align="center">
+           <audio controls>
+              <source src="https://audio.jukehost.co.uk/3RJSlUAbZ4fsyl2noGYBHL4ZWjuapb0K"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">Left - Izquierdo </h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/c6LfWi7T7fSWigNwuqvOlJHpUXxH1AuL"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-4">
+          <h3 class="vocab">To the left of (the) ___ - A la izquierda de (el/la) ___</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/ch2wSMKLeD4Sf9lL9pjoI0SBRPZKA5zo"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-5">
+          <h3 class="vocab">Right - Derecho</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/cjRemibASRXIe6MlCRG6qnCleqFmBbCh"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">To the right of (the) ___ - A la derecho/a de (el/la) ___</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/6yJxBfkJWtqiQuwxDD9X8fH93n5qDv6E"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>          
+        </div>
+			</div>
+      <div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">Straight ahead - Todo recto</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/hrrHiuiZeut1nuvWJ9I9BsjXUpqQOqlE"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>         
       </div>
+      <div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">Near - Cerca</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/DmAG1wgldzORH3Zvj6Osx3IZdqRhbtYV"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>         
+        </div>
+      </div>
+      <div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">Far - Lejos</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/qQCCP8lkPv49DkJ4ToaqSXssRtezAIq0"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>          
+        </div>
     </div>
-    <br>
-    <h3 class="vocab">Seasons - Estaciones</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/qGWonSoHbKowfDvKw8JJEnWBHx2Oczdf"/>
+  </div>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Destinations</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Store - Tienda</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/X9yIQpcJjwve9V7ytt5qZhrESZ19rZXW"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">Supermarket - Supermercado</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/boflllwqIoDMsrIDa77KhrFToDnGTrs4"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">Restaurant - Restaurante</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/TymEyMFkIZMcKZGmlhP1isFXfFwSFKDh"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-4">
+          <h3 class="vocab">Park - Parque</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/yeoEC4g1fnuMP6PIXfFGuReViOu4R9uC"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-5">
+          <h3 class="vocab">Bank - Banco</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/s79f97JY0zlnMlhjlBycBVJNWbHIZnGD"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-6">
+          <h3 class="vocab">Hospital - Hospital</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/o4wRpwI5vzTcPciYU5ssyvzuwHMutapi"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>       
+        </div>
+			</div>
     </div>
-    <br>
-    <h3 class="vocab">Temperature - Temperatura</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/LLuKXKyXOwYTZfVD98dRvyXoMab8U68a"/>
+  </div>
+
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Sentences</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Q: Where is the park? ¿Dónde está el parque?</h3>
+          <h3 class="vocab">A: The park is near the supermarket. El parque está cerca del supermercado.</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/SoGOpuezXj6qDOoqSqpnGVtJGSH99x9X"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
-    <br>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">Q: How far is the hospital from here? ¿Cómo lejos está el hospital de aquí?</h3>
+          <h3 class="vocab">A: The hospital is very far from here. El hospital está muy lejos de aquí.</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/B6LMbW7O5WK2ED01LVhxC5NqxTYEQNM4"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">Q: How do I get to the restaurant? ¿Cómo puede llegar al restaurante?</h3>
+          <h3 class="vocab">A: Go ahead, make a right, and you will see the restaurant. Adelante, haga una delante, y verá el restaurante.</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/mlJtiiwimRgaY6vKJVDNv5ADQB8skFEc"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+    </div>
+  </div>
+
+  <!-- Directions Unit -->
+  <center>
+    <a class="vocab-subtitle1" id="weather">Weather</a>
+  </center>
+
+  <div class="container-fluid">
+    <h3 class="mt-5">Basic Phrases</h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-block card-1">
+          <h3 class="vocab">Weather report- Informe del tiempo</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/gbWI0AtlDv6jYqRVvGWM6iZBybVds5vY"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-2">
+          <h3 class="vocab">Seasons - Estaciones</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/qGWonSoHbKowfDvKw8JJEnWBHx2Oczdf"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-block card-3">
+          <h3 class="vocab">Temperature - Temperatura</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/LLuKXKyXOwYTZfVD98dRvyXoMab8U68a"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
+    </div>
+  </div>
+
     <h3 class="vocab-subtitle">Basic Sentences</h3>
     <br>
     <h3 class="vocab">What’s the weather like today? - ¿Cómo está el tiempo hoy?</h3>
