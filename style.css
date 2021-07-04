@@ -281,12 +281,16 @@ body{
 }
 
 .button-unification {
-  border-radius: 5px;
-  color: white;
+  padding: 15px;
   background-color: black;
-  height: 50px;
-  width: 120px;
-  margin-inline-start: 80px;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 70px;
+}
+
+.button-unification:hover {
+  color: white;
 }
 
 a:hover {
