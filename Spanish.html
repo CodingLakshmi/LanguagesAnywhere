@@ -52,8 +52,9 @@
 <body>
 	<script src="script.js">
 	</script>
+  
   <div class="header">
-    <div class = "title-chinese"><!-- not entirely sure if I shoudl change this to title-spanish -->
+    <div class = "title-chinese">
       </br>
       </br>
       </br>
@@ -61,24 +62,60 @@
     </div>
   </div>
 
-  <div class = "cards">
-    <div class="cardGroup">
-      <div class="card">
-        <h2>Basic Greetings and Common Phrases</h2>
-        <a href="#greetings">
-          <input type="submit" value="start">
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+  <div>
+    <nav class = "naviagtion">
+      <ul id = "co">
+        <li class = "home">
+          <a href="index.html" class = "link">Home</a>
+        </li>
+        <li class = "chinese-page" > 
+          <a href="Chinese.html" class = "link">Chinese</a>
+        </li>
+        <li class = "hindi-page">
+          <a href="Hindi.html"  class = "link">Hindi</a>
+        </li>
+        <li class = "spanish-page" >
+          <a href="Spanish.html" class = "link">Spanish</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="cards">
+		<div class="cardGroup">
+			<div class="card">
+				<h2>Basic Greetings and Common Phrases:</h2>
+        <p>Greeting people is a vital part of courtesy and goodwill. Every greeting and introduction is an opportunity to show respect for others and to establish a positive first impression of yourself to others.</p>
+        <a href="#greetings" class = "button-unification">
+          Start Lesson
+        </a>
+				<br>
+        <a href="SpanishQuiz-unit1.html" class = "button-unification">
+          Start Quiz for Unit 1
         </a>
       </div>
       <div class="card">
         <h2>Asking for Directions</h2>
-        <a href="#directions">
-          <input type="submit" value="start">
+        <p>When in a foreign country, knowing how to ask for help when lost is highly important. Learning these basic phrases and sentences will enable you to better communicate and understand other people.</p>
+        <a href="#directions" class = "button-unification">
+          Start Lesson
+        </a>
+        <br>
+        <a href="SpanishQuiz-unit2.html" class = "button-unification">
+          Start Quiz for Unit 2
         </a>
       </div>
       <div class="card">
         <h2>Weather</h2>
-        <a href="#weather">
-          <input type="submit" value="start">
+        <p>Weather is often one of the most important factors to consider when planning a trip. Learning weather phrases will assist you with planning trips and can even be life saving in certain situations of servere weather.</p>
+        <a href="#weather" class = "button-unification">
+          Start Lesson
+        </a>
+        <br>
+        <a href="SpanishQuiz-unit3.html" class = "button-unification">
+          Start Quiz for Unit 3
         </a>
       </div>
     </div>
@@ -159,6 +196,7 @@
 			</div>
     </div>
   </div>
+  <p> Scroll for more vocabluary</p>
 
   <div class="container-fluid">
     <h3 class="mt-5">Common Phrases</h3>
@@ -310,10 +348,10 @@
   </div>
 
   <div class="container-fluid">
-    <h3 class="mt-5">Basic Greetings</h3>
+    <h3 class="mt-5">Example Conversations</h3>
     <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 			<div class="col-3">
-				<div class="card card-block card-1">
+				<div class="card card-2 card-block2">
           <h3 class="vocab">Q: Hi! How are you?  ¡Hola! ¿Cómo estás?</h3>
           <h3 class="vocab">A: I’m great, thank you! Estoy bien, gracias!</h3>
           <div align="center">
@@ -325,7 +363,7 @@
         </div>
 			</div>
 			<div class="col-3">
-				<div class="card card-block card-2">
+				<div class="card card-2 card-block2">
           <h3 class="vocab">Q: What day of the week is it today? ¿Qué día de la semana es hoy?</h3>
           <h3 class="vocab">A: Today is Sunday. Hoy es Domingo.</h3>
           <div align="center">
@@ -565,7 +603,7 @@
     <h3 class="mt-5">Basic Sentences</h3>
     <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 			<div class="col-3">
-				<div class="card card-block card-1">
+				<div class="card card-2 card-block2">
           <h3 class="vocab">Q: Where is the park? ¿Dónde está el parque?</h3>
           <h3 class="vocab">A: The park is near the supermarket. El parque está cerca del supermercado.</h3>
           <div align="center">
@@ -577,7 +615,7 @@
         </div>
 			</div>
 			<div class="col-3">
-				<div class="card card-block card-2">
+				<div class="card card-2 card-block2">
           <h3 class="vocab">Q: How far is the hospital from here? ¿Cómo lejos está el hospital de aquí?</h3>
           <h3 class="vocab">A: The hospital is very far from here. El hospital está muy lejos de aquí.</h3>
           <div align="center">
@@ -589,7 +627,7 @@
         </div>
 			</div>
 			<div class="col-3">
-				<div class="card card-block card-3">
+				<div class="card card-2 card-block2">
           <h3 class="vocab">Q: How do I get to the restaurant? ¿Cómo puede llegar al restaurante?</h3>
           <h3 class="vocab">A: Go ahead, make a right, and you will see the restaurant. Adelante, haga una delante, y verá el restaurante.</h3>
           <div align="center">
@@ -648,7 +686,7 @@
   </div>
 
     <div class="container-fluid">
-    <h3 class="mt-5">Basic Phrases</h3>
+    <h3 class="mt-5">Basic Sentences</h3>
     <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 			<div class="col-3">
 				<div class="card card-block card-1">
@@ -786,7 +824,7 @@
   </div>
 
 <div class="container-fluid">
-    <h3 class="mt-5">Phrases for Navigation</h3>
+    <h3 class="mt-5">Weather Phenomena</h3>
     <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
 			<div class="col-3">
 				<div class="card card-block card-1">
@@ -900,128 +938,44 @@
     </div>
   </div>
 
-    <h3 class="vocab-subtitle">Weather phenomenon</h3>
-    <br>
-    <h3 class="vocab">Sunny - Soleado</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/SQ1ji6n1HqNhTwd5ZrfgLLDaUyCaawrn"/>
+
+<div class="container-fluid">
+    <h3 class="mt-5">Example Conversations </h3>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+			<div class="col-3">
+				<div class="card card-2 card-block2">
+          <h3 class="vocab">Q: What’s the weather like today? ¿Cómo está el tiempo hoy?</h3>
+          <h3 class="vocab">A: It is sunny and hot. Hace sol y calor.</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/zVMHu3I3LEPVcn43ufSRhMOHvCWGLxH7"/>
           Your browser does not support the audio element.
-        </audio>
-      </div>
+            </audio>
+          </div>
+        </div>
+			</div>
+			<div class="col-3">
+				<div class="card card-2 card-block2">
+          <h3 class="vocab">Q: Will it rain tomorrow? Lloverá mañana?</h3>
+          <h3 class="vocab">A: The weather report says it will rain tomorrow. El informe de tiempo dice que mañana lloverá.</h3>
+          <div align="center">
+            <audio controls>
+              <source src="https://audio.jukehost.co.uk/pIrHE6lgpbF34ynxzymrV0oPEkHDhBTJ"/>
+          Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>
+			</div>
     </div>
-    <br>
-    <h3 class="vocab">Cloudy - Nublado</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/fsIcUE9xGtlnyLGXH5ojqDtmAjczhSYt"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Rain - Lluvia</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/dAaXDFGIL0nKrpMc6r5ssHoQU2zkzSly"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Wind - Veinto</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/2PsE6zuAY01VHfM4CTryEidheiWFRFcB"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Fog - Niebla</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/HX6YEka44nUGAtuwrjKavG8P1X9jeEdf"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Snow - Nieva</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/73Vq3PnfRFAh4Yj3G30AMw6hkMi0gjMH"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    <br>
-    <h3 class="vocab">Thunderstorm - Tormenta</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/1ihFEpKLP0JVu7ZWDYJC5Gz2tYQtpQke"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Hurricane - Huracán</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/JsGlikiG2lCI8YklT8WJEAxMn8lDb3Ut"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Flood - Inundación</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/cBE3MmZwS7lKzB5b8V3qJXQe9b7HHitV"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <h3 class="vocab">Drought - Sequía</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/bYQ1KJTYziCd0mAq1ukzMmoHxcP5abSu"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-  <h3 class="vocab-subtitle">Example Conversations</h3>
-  <br>
-    <div>
-      <h3 class="vocab">Q: What’s the weather like today? ¿Cómo está el tiempo hoy?</h3>
-      <h3 class="vocab">A: It is sunny and hot. Hace sol y calor.</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/zVMHu3I3LEPVcn43ufSRhMOHvCWGLxH7"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
-    <div>
-      <h3 class="vocab">Q: Will it rain tomorrow? Lloverá mañana?</h3>
-      <h3 class="vocab">A: The weather report says it will rain tomorrow. El informe de tiempo dice que mañana lloverá.</h3>
-      <div align="center">
-        <audio controls>
-          <source src="https://audio.jukehost.co.uk/pIrHE6lgpbF34ynxzymrV0oPEkHDhBTJ"/>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    </div>
-    <br>
   </div>
-  <div class = "footer">
-    </br>
-    <h2 class = "website-title"></h2>
-    <p class = "pTag2">
-      
-    </p>
+</div>
+</div>
+  <br>
+
+  <br>
+  
+  </div>
+    <div class = "footer">
     </br>
     <h2 class = "website-title"> Languages Anywhere </h2>
     <p class = "pTag3">
@@ -1036,7 +990,7 @@
     </br>
     <center>
       <div class = "icons"> 
-        <a href="">
+        <a href="https://github.com/CodingLakshmi/AtlasHacksProject">
           <img src="Images/github_icon_img.jpg" alt="gitHub icon image" class = "gitHub">
         </a>
         <a href="">
@@ -1045,6 +999,7 @@
         <a href="">
           <img src="Images/youtube_icon_img.png" alt="youtube icon image" class = "youtube">
         </a>
+        <br>
       </div>
     </center>
   </div>

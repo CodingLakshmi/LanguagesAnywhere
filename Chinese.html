@@ -45,19 +45,19 @@
 				box-shadow: none;
 			}
 
-      .card-block2 {
-			height: 500px;
-			background-color: #fff;
-			border: none;
-			background-position: center;
-			background-size: cover;
-			transition: all 0.2s ease-in-out !important;
-			border-radius: 50px;
-			&:hover {
-				transform: translateY(-5px);
-				box-shadow: none;
-      }
-		}
+			.card-block2 {
+				height: 500px;
+				background-color: #fff;
+				border: none;
+				background-position: center;
+				background-size: cover;
+				transition: all 0.2s ease-in-out !important;
+				border-radius: 50px;
+				&:hover {
+					transform: translateY(-5px);
+					box-shadow: none;
+				}
+			}
 	</style>
 </head>
 
@@ -75,27 +75,61 @@
 		</div>
 	</div>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+  <div>
+    <nav class = "naviagtion">
+      <ul id = "co">
+        <li class = "home">
+          <a href="index.html" class = "link">Home</a>
+        </li>
+        <li class = "chinese-page" > 
+          <a href="Chinese.html" class = "link">Chinese</a>
+        </li>
+        <li class = "hindi-page">
+          <a href="Hindi.html"  class = "link">Hindi</a>
+        </li>
+        <li class = "spanish-page" >
+          <a href="Spanish.html" class = "link">Spanish</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
 	<div class="cards">
 		<div class="cardGroup">
 			<div class="card">
 				<h2>Basic Greetings and Common Phrases:</h2>
-        <p>Greeting people is a vital part of courtesy and goodwill. Every greeting and introduction is an opportunity to show respect for others and to establish a positive first impression of yourself to others.</p>
-				<a href="#greetings">
-					<input type="submit" value="start">
+				<p>Greeting people is a vital part of courtesy and goodwill. Every greeting and introduction is an opportunity to show
+					respect for others and to establish a positive first impression of yourself to others.</p>
+        <a href="#greetings" class = "button-unification">
+          Start Lesson
+        </a>
+        <br>
+        <a href="ChineseQuiz-unit1.html" class = "button-unification">
+          Start Quiz for Unit 1
         </a>
       </div>
       <div class="card">
         <h2>Asking for Directions</h2>
         <p>When in a foreign country, knowing how to ask for help when lost is highly important. Learning these basic phrases and sentences will enable you to better communicate and understand other people.</p>
-        <a href="#directions">
-          <input type="submit" value="start">
+        <a href="#directions" class = "button-unification">
+          Start Lesson
+        </a>
+        </br>
+        <a href="ChineseQuiz-unit2.html" class = "button-unification">
+          Start Quiz for Unit 2
         </a>
       </div>
       <div class="card">
         <h2>Weather</h2>
         <p>Weather is often one of the most important factors to consider when planning a trip. Learning weather phrases will assist you with planning trips and can even be life saving in certain situations of servere weather.</p>
-        <a href="#weather">
-          <input type="submit" value="start">
+        <a href="#weather" class = "button-unification">
+          Start Lesson
+        </a>
+        </br>
+        <a href="ChineseQuiz-unit3.html" class = "button-unification">
+          Start Quiz for Unit 3
         </a>
       </div>
     </div>
@@ -181,6 +215,7 @@
         </div>
 			</div>
     </div>
+     <p> Scroll for more vocabluary</p>
 
     <div class="container-fluid">
     <h3 class="mt-5">Common Phrases</h3>
@@ -1031,12 +1066,12 @@
       </div>
     </div>
   </div>
-
+  </div>
   <div class = "footer">
     </br>
-    <h2 class = "website-title"></h2>
-    <p class = "pTag2">
-      
+    <h2 class = "website-title"> Languages Anywhere </h2>
+    <p class = "pTag3">
+      Thank you for visiting! If you have any questions or comments contact us using the form below.
     </p>
     </br>
     <center>
@@ -1047,7 +1082,7 @@
     </br>
     <center>
       <div class = "icons"> 
-        <a href="">
+        <a href="https://github.com/CodingLakshmi/AtlasHacksProject">
           <img src="Images/github_icon_img.jpg" alt="gitHub icon image" class = "gitHub">
         </a>
         <a href="">
@@ -1056,6 +1091,7 @@
         <a href="">
           <img src="Images/youtube_icon_img.png" alt="youtube icon image" class = "youtube">
         </a>
+        <br>
       </div>
     </center>
   </div>
