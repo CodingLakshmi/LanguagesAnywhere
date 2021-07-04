@@ -296,3 +296,19 @@ body{
 a:hover {
   color: white;
 }
+
+.WebContainer{
+  width: 100%;
+  height: auto;
+}
+.articles{
+  width:90%; /*Takes 90% width from WebContainer*/
+  height: auto;
+  margin: auto;
+} 
+
+.WebContainer{
+  width:100%;
+  min-width:1000px;
+  height:auto;
+}
